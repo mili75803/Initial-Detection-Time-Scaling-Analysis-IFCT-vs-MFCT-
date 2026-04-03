@@ -1,0 +1,5 @@
+walk_type,metric,dc_scaling,Predicted_exponent,a,exponent
+CRW,IFCT,Constant,0.0,2.13,0.04
+CRW,IFCT,Half,-0.5,3.13,-0.48
+CRW,MFCT,Constant,0.5,3.44,0.5
+CRW,MFCT,Half,0.0,4.28,0.01
