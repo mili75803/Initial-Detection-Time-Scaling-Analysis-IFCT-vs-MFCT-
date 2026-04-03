@@ -101,39 +101,31 @@ Key Insights
 - Variability in raw data highlights stochastic behavior
 
 Tech Stack:
-Programming
-|_JAVA(MASON)
-|_Python (NumPy, Pandas, SciPy)
-Modeling
-|_Nonlinear curve fitting (curve_fit)
-Statistical evaluation
-|_RMSE, R², AIC, BIC
-Visualization
-|_Tableau Cloud (interactive dashboard)
+Programming 
+- JAVA(MASON)
+- Python (NumPy, Pandas, SciPy)
+Modeling: Nonlinear curve fitting (curve_fit)
+Statistical evaluation: RMSE, R², AIC, BIC
+Visualization: Tableau Cloud (interactive dashboard)
 Project Structure
-├── Simulation Model (LN_Avg_contact_time_WithoutUIOriginal_/src/ln_first_contact_time_withoutUIOriginal)
-|   |──Agent.java
-|	|──AgentsSetting.java 		#main
-|	|──AgentsWithUI.java       
-|	|──Coordinate3D.java
-|	|──DendriticCell.java
-|	|──LymphNodes.java
-|	|──TCell.java
-|	|──TCellCoordinate3D.java
-|	|──TCell_org.java
-|
-├── data/
-│   ├── df_all.csv              # Raw simulation data
-│   ├── fitted_curves.csv       # Model predictions
-│   └── model_parameters.csv    # Fitted parameters
-│
-├── notebooks/
-│   └── Main_IFCT_MFCT.ipynb  # Full analysis pipeline and model fitting functions
-│
-├── dashboard/
-│   └── tableau_link.txt        # Dashboard link
-│
-└── README.md
+- Simulation Model (LN_Avg_contact_time_WithoutUIOriginal_/src/ln_first_contact_time_withoutUIOriginal)
+  |──Agent.java
+  |──AgentsSetting.java 		#main
+  |──AgentsWithUI.java       
+  |──Coordinate3D.java
+  |──DendriticCell.java
+  |──LymphNodes.java
+  |──TCell.java
+  |──TCellCoordinate3D.java
+  |──TCell_org.java
+- data/
+  ├── df_all.csv              # Raw simulation data
+  ├── fitted_curves.csv       # Model predictions
+  │── model_parameters.csv    # Fitted parameters
+- notebooks/
+  |── Main_IFCT_MFCT.ipynb  # Full analysis pipeline and model fitting functions
+- dashboard: tableau_link.txt        # Dashboard link
+- README.md
 
 Key Data Science Contributions
 |--Built an end-to-end pipeline:
