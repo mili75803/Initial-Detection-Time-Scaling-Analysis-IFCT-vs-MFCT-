@@ -71,11 +71,11 @@ The model achieved low error (~13–15%) for MFCT, but large errors (~3–4×) f
 
 Because IFCT distributions are highly variable, model evaluation was reperformed on the median IFCT (not MFCT) at each mass to assess how well the scaling law captures the central tendency across system size. While replicate-level IFCT exhibits large variability, median-based evaluation demonstrates that the scaling law accurately captures the central tendency across system size, with only moderate deviation (~20%). This indicates that stochastic fluctuations dominate individual outcomes, but underlying scaling behavior remains consistent.
 
-Case  Exponent  Match 		RMSE (factor)  R² AIC/BIC
-IFCT  Constant  0.04 ≈ 0 	1.20× 		   0.87  good
-IFCT  Half     -0.48 ≈ -0.5 1.23× 		   0.97  good
-MFCT  Constant  0.50 = 0.5  1.01× 		  ~1.00 excellent
-MFCT  Half      0.01 ≈ 0 	1.02× 		  ~1.00 excellent
+Case	Exponent	Match		RMSE (factor)	R²		AIC/BIC
+IFCT	Constant	0.04 ≈ 0	1.20×			0.87	good
+IFCT	Half     -0.48 ≈ -0.5 1.23× 		   0.97  good
+MFCT	Constant  0.50 = 0.5  1.01× 		  ~1.00 excellent
+MFCT	Half      0.01 ≈ 0 	1.02× 		  ~1.00 excellent
 
 MFCT is highly predictable and follows the scaling law almost perfectly, whereas first detection time (IFCT) exhibits moderate deviation, reflecting underlying stochastic dynamics.
 
