@@ -102,52 +102,52 @@ Key Insights
 
 Tech Stack:
 Programming 
-- JAVA(MASON)
+- JAVA (MASON)
 - Python (NumPy, Pandas, SciPy)
 Modeling: Nonlinear curve fitting (curve_fit)
 Statistical evaluation: RMSE, R², AIC, BIC
 Visualization: Tableau Cloud (interactive dashboard)
 Project Structure
 - Simulation Model (LN_Avg_contact_time_WithoutUIOriginal_/src/ln_first_contact_time_withoutUIOriginal)
-  |──Agent.java
-  |──AgentsSetting.java 		#main
-  |──AgentsWithUI.java       
-  |──Coordinate3D.java
-  |──DendriticCell.java
-  |──LymphNodes.java
-  |──TCell.java
-  |──TCellCoordinate3D.java
-  |──TCell_org.java
-- data/
-  ├── df_all.csv              # Raw simulation data
-  ├── fitted_curves.csv       # Model predictions
-  │── model_parameters.csv    # Fitted parameters
-- notebooks/
-  |── Main_IFCT_MFCT.ipynb  # Full analysis pipeline and model fitting functions
+	- Agent.java
+	- AgentsSetting.java 		#main
+	- AgentsWithUI.java
+	- Coordinate3D.java
+	- DendriticCell.java
+	- LymphNodes.java
+	- TCell.java
+	- TCellCoordinate3D.java
+	- TCell_org.java
+- data
+	- df_all.csv              # Raw simulation data
+	- fitted_curves.csv       # Model predictions
+	- model_parameters.csv    # Fitted parameters
+- notebooks
+	- Main_IFCT_MFCT.ipynb  # Full analysis pipeline and model fitting functions
 - dashboard: tableau_link.txt        # Dashboard link
 - README.md
 
 Key Data Science Contributions
-|--Built an end-to-end pipeline:
-|--Experiment design -> simulation -> data processing -> modeling -> visualization
-|--Applied hypothesis-driven modeling to real simulation data
-|--Designed interactive dashboards for stakeholder-friendly insights
-|--Compared multiple system configurations using statistical metrics
+- Built an end-to-end pipeline:
+- Experiment design -> simulation -> data processing -> modeling -> visualization
+- Applied hypothesis-driven modeling to real simulation data
+- Designed interactive dashboards for stakeholder-friendly insights
+- Compared multiple system configurations using statistical metrics
 
 How This Relates to Data Science
 This project demonstrates:
-|-- Data cleaning and transformation
-|-- Feature engineering
-|-- Model fitting and evaluation
-|-- Hypothesis testing
-|-- Data visualization and storytelling
-|--End-to-end analytical workflow
+- Data cleaning and transformation
+- Feature engineering
+- Model fitting and evaluation
+- Hypothesis testing
+- Data visualization and storytelling
+- End-to-end analytical workflow
 
 Future Improvements
-|-- Extend model fitting to BM case
-|-- Add uncertainty quantification
-|-- Automate pipeline using PySpark
-|-- Deploy dashboard with scheduled data refresh
+- Extend model fitting to BM case
+- Add uncertainty quantification
+- Automate pipeline using PySpark
+- Deploy dashboard with scheduled data refresh
 
 Author
 
