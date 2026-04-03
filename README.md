@@ -62,6 +62,7 @@ Implemented using:
 4. Model Evaluation
 
 Evaluated performance using:
+
 - RMSE (Root Mean Squared Error) in log-space
 - R² (Goodness of fit)
 - AIC / BIC (model selection)
