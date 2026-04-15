@@ -1,4 +1,5 @@
 Detection Time Scaling Analysis (IFCT vs MFCT)
+
 Paper link: https://www.nature.com/articles/s41598-025-28443-2
 
 Overview
